@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+nav,
+footer {
+    padding: 16px;
+    color: #0b0848;
+    background-color: #d4f2f4;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 12px;
+    color: #0b0848;
+}
+
+.gioi-thieu,
+.lien-he {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 24px;
+}
+
+.gioi-thieu {
+    background-color: #F3FDE8;
+}
+
+.lien-he {
+    background-image: url("https://i.ibb.co/nq6hVqyh/images.jpg");
+    background-repeat: repeat;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 24px;
+    -webkit-text-stroke: 1px #000000;
+}
+
+h1 {
+    color: #CAEDFF;
+}
+
+h2 {
+    color: #D8B4F8;
+}
+
+h3 {
+    color: #FFC7EA;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+.anh-dai-dien {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th:last-child,
+td:last-child {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .gioi-thieu,
+    .lien-he {
+        margin: 10px;
+        padding: 16px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
